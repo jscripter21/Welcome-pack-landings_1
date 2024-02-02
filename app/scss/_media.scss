@@ -1,0 +1,162 @@
+@media (max-width:1025px) {
+    .footer__icons {
+        width: 700px;
+    }
+    .footer_copyright {
+        width: 700px;
+    }
+    .footer__icons-item {
+        margin-bottom: 6px;
+        margin-right: 15px;
+    }
+    .bottom_leaf_img {
+        height: 40vh;
+    }
+    .sloterra_girl {
+        width: 942px;
+        height: 1166px;
+    }
+}
+
+@media (max-width:830px) {
+    .bottom_leaf_img {
+        height: 30vh;
+    }
+    .sloterra_girl {
+        width: 842px;
+        height: 1066px;
+    }
+}
+
+@media (max-width:720px) {
+    .sloterra {
+        width: 700px;
+        height: 840px;
+    }
+    .footer__icons-item img {
+        width: 80px;
+    }
+    .icons-item_interc img {
+        width: 50px;
+    }
+    .footer__icons {
+        width: 432px;
+        margin: 0 auto;
+    }
+    .footer_copyright {
+        width: 530px;
+    }
+    .footer__icons-item {
+        margin-bottom: 0;
+        margin-right: 15px;
+    }
+    .sloterra_girl {
+        width: 642px;
+        height: 866px;
+        left: 48%;
+    }
+    .container_btn {
+        bottom: 21%;
+    }
+    .btn img {
+        width: 230px;
+    }
+    .bottom_leaf_img {
+        height: 20vh;
+    }
+}
+
+@media (max-width:550px) {
+    .sloterra {
+        width: 700px;
+        height: 790px;
+    }
+    .footer__icons-item img {
+        width: 80px;
+    }
+    .icons-item_interc img {
+        width: 50px;
+    }
+    .footer__icons {
+        width: 432px;
+        margin: 0 auto;
+    }
+    .footer_copyright {
+        width: 330px;
+        margin: 0 auto;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-size: 9px;
+    }
+    .footer__icons-item {
+        margin-bottom: 0;
+        margin-right: 15px;
+    }
+    .sloterra_girl {
+        width: 498px;
+        height: 748px;
+        left: 45%;
+    }
+    .container_btn {
+        bottom: 18%;
+    }
+    .btn img {
+        width: 200px;
+    }
+    .bottom_leaf_img {
+        height: 20vh;
+    }
+}
+
+@media (max-width:410px) {
+    .sloterra {
+        width: 700px;
+        height: 620px;
+    }
+    .footer__icons-item img {
+        width: 50px;
+    }
+    .icons-item_interc img {
+        width: 50px;
+    }
+    .footer__icons {
+        width: 432px;
+        margin: 0 auto;
+    }
+    .footer_copyright {
+        width: 330px;
+        margin: 0 auto;
+        padding-bottom: 10px;
+        font-size: 8px;
+    }
+    .footer__icons-item {
+        margin-bottom: 0;
+        margin-right: -10px;
+    }
+    .sloterra_girl {
+        width: 438px;
+        height: 697px;
+        left: 42%;
+    }
+    .container_btn {
+        bottom: 14%;
+    }
+    .btn img {
+        width: 190px;
+    }
+    .bottom_leaf_img {
+        height: 20vh;
+    }
+}
+
+@media (max-height:600px) {
+    .container_btn {
+        bottom: 25%;
+    }
+}
+
+@media (max-height:932px) {
+    .container_btn {
+        bottom: 25%;
+    }
+}

@@ -1,0 +1,151 @@
+@import 'vars';
+@import 'global';
+body {
+    height: auto;
+}
+
+.wrapper {
+    background-image: url(../img/bg/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.header_logo {
+    z-index: 100;
+    display: flex;
+    align-items: center;
+}
+
+.logo_container {
+    margin: 0 auto;
+    z-index: 100;
+}
+
+.logo img {
+    max-width: 100%;
+    width: 310px;
+}
+
+.sloterra {
+    width: 1000px;
+    height: 1100px;
+}
+
+.sloterra_girl {
+    position: relative;
+    position: absolute;
+    width: 970px;
+    height: 1192px;
+    margin-left: 50px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.container_btn {
+    position: absolute;
+    left: 50%;
+    bottom: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    cursor: pointer;
+    animation: btn 2s infinite;
+    z-index: 100;
+}
+
+@keyframes btn {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.footer__icons {
+    width: 870px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.footer__icons-item {
+    width: 120px;
+    margin-bottom: 6px;
+    margin-right: 25px;
+}
+
+.footer_copyright {
+    color: #FFF;
+    max-width: 870px;
+    margin-top: 15px;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+
+.bottom_leaf_img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 55vh;
+}
+
+.falling-leaves {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.leaf-scene {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    transform-style: preserve-3d;
+    div {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 40px;
+        height: 30px;
+        background: url('../img/Leaf.png') no-repeat;
+        background-size: 100%;
+        transform-style: preserve-3d;
+        backface-visibility: visible;
+    }
+}
+
+@import 'media';
