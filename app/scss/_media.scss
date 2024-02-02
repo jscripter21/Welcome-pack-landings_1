@@ -69,7 +69,7 @@
 @media (max-width:550px) {
     .sloterra {
         width: 700px;
-        height: 790px;
+        height: 875px;
     }
     .footer__icons-item img {
         width: 80px;
@@ -93,25 +93,66 @@
         margin-right: 15px;
     }
     .sloterra_girl {
-        width: 498px;
-        height: 748px;
+        width: 602px;
+        height: 811px;
         left: 45%;
+        display: none;
+    }
+    .sloterra_girl_mob {
+        display: block;
+        width: 552px;
+        bottom: 40px;
     }
     .container_btn {
         bottom: 18%;
     }
     .btn img {
-        width: 200px;
+        width: 260px;
     }
     .bottom_leaf_img {
         height: 20vh;
     }
+    .logo img {
+        max-width: 100%;
+        width: 240px;
+        margin-top: 15px;
+    }
 }
 
-@media (max-width:410px) {
+@media (max-width:530px) {
+    .sloterra_girl_mob {
+        width: 530px;
+    }
+}
+
+@media (max-width:505px) {
+    .sloterra_girl_mob {
+        margin-left: -25px;
+    }
+}
+
+@media (max-width:485px) {
+    .sloterra_girl_mob {
+        width: 507px;
+    }
+}
+
+@media (max-width:464px) {
+    .sloterra_girl_mob {
+        width: 489px;
+    }
+}
+
+@media (max-width:448px) {
+    .sloterra_girl_mob {
+        width: 472px;
+    }
+}
+
+@media (max-width:430px) {
     .sloterra {
         width: 700px;
-        height: 620px;
+        height: 740px;
     }
     .footer__icons-item img {
         width: 50px;
@@ -137,15 +178,47 @@
         width: 438px;
         height: 697px;
         left: 42%;
+        display: none;
+    }
+    .sloterra_girl_mob {
+        display: block;
+        width: 452px;
+        bottom: 75px;
+        margin-left: -17px;
     }
     .container_btn {
         bottom: 14%;
     }
     .btn img {
-        width: 190px;
+        width: 240px;
     }
     .bottom_leaf_img {
-        height: 20vh;
+        height: 45vh;
+    }
+    .footer {
+        bottom: 30px;
+    }
+}
+
+@media (max-width:411px) {
+    .sloterra_girl_mob {
+        width: 436px;
+    }
+}
+
+@media (max-width:396px) {
+    .sloterra_girl_mob {
+        width: 421px;
+    }
+}
+
+@media (max-width:383px) {
+    .sloterra_girl_mob {
+        width: 388px;
+        margin-left: -11px;
+    }
+    .btn img {
+        width: 210px;
     }
 }
 
@@ -157,6 +230,12 @@
 
 @media (max-height:932px) {
     .container_btn {
-        bottom: 25%;
+        bottom: 27%;
+    }
+}
+
+@media (max-height:393px) {
+    .container_btn {
+        bottom: 21%;
     }
 }

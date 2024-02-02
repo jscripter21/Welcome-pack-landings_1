@@ -30,18 +30,25 @@ body {
 
 .sloterra {
     width: 1000px;
-    height: 1100px;
+    height: 1140px;
 }
 
 .sloterra_girl {
     position: relative;
     position: absolute;
-    width: 970px;
-    height: 1192px;
+    width: 1070px;
+    height: 1292px;
     margin-left: 50px;
     bottom: 0;
     left: 50%;
     transform: translate(-50%, 0);
+}
+
+.sloterra_girl_mob {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    width: 552px;
 }
 
 .container_btn {
@@ -117,7 +124,7 @@ body {
 }
 
 .falling-leaves {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
